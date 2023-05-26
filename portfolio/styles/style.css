@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+width: auto;
+margin: 0;
+}
+
+header{
+    max-width: 100vw;
+    height: auto;
+    background-color: #D8D0C2;
+    color:#2E2E2E;
+}
+
+nav{
+    max-width: 100vw;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav p{
+    font-size: 14px;
+    padding-left: 160px;
+    font-weight:700;
+    color: #2E2E2E;
+}
+
+.rs{
+    display: inline-flex;
+    
+}
+
+.links{
+    padding-right: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links a{
+    font-weight:700;
+    padding-right: 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: none;
+    color: #2E2E2E;
+    font-size: 14px;
+}
+
+.rs a{
+    padding-right: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: auto;
+    width: 1040px;
+    padding-top: 110px;
+}
+
+.hero img{
+    border: 16px solid white;
+    width: auto;
+    height: 436px;
+}
+
+.hero h1{
+    text-align: right;
+    padding-right: 80px;
+    font-size: 74px;
+    height: 192px;
+    color: #2E2E2E;
+}
+
+.about{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 56px;
+}
+
+.presentacion{
+    color: #fff;
+}
+
+footer{
+    max-width: 100vw;
+    height: auto;
+    position:relative;
+    bottom:0px;
+    font-weight:300;
+    display: flex;
+    justify-content: center;
+    background-color: #2E2E2E;
+}
+
+footer p{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.bottom-contact{
+    display: flex;
+    align-items: center;
+    max-width: 100vw;
+    height: 720px;
+    background-color: #D8D0C2;
+}
+
+.contact{
+    margin: auto;
+    height: auto;
+    width: 1040px;
+    padding-top: 160px;
+}
+
+.contact h2{
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.contact a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    color: #D8D0C2;
+    margin: auto;
+    width: 134px;
+    height: 40px;
+    font-weight:700;
+    background: #2E2E2E;
+    border-radius: 50px;
+
+}
+
+.cajon-imagenes{
+    display:grid;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuadrada{
+    border: 16px solid white;
+    width: 398px; 
+    height: 436px;
+    
+}
+
+.rectangular{
+    border: 16px solid white;
+    width: 812px; 
+    height: 436px;
+}
+
+
+@media only screen and (max-width:375px) {
+
+    header{
+        height: 800px;
+        background-color: #D8D0C2;
+        color:#2E2E2E;
+    }
+
+    nav{
+        display: flex;
+        padding-top: 16px;
+        height: 74px;
+    }
+    
+    nav p{
+        padding-left: 16px;
+    }
+
+    .links{
+        padding-right: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .links a{
+        padding-right: 16px;
+        text-align: center;
+    
+    }
+    .rs a{
+        padding-right: 4px;
+        text-align: center;
+    }
+
+    .hero{
+        display: list-item;
+        align-items:center;
+        height: auto;
+        width: 100vw;
+        padding:16px;
+        padding-top: 32px;
+    }
+    
+    .hero img{
+        border: 16px solid white;
+        height: 376px;
+        width: 343px;
+    }
+    
+    .hero h1{
+        text-align: left;
+        margin-left: 15vw;
+        padding-right: 0px;
+        padding-bottom: 32px;
+        font-size: 36px;
+    }
+
+
+    .about{
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding: 32px;
+    }
+    .about p{
+        font-weight:300;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .cajon-imagenes{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+    }
+    
+    .card{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .cuadrada{
+        border: 16px solid white;
+        height: 376px;
+        width: 343px;
+        
+    }
+    
+    .rectangular{
+        border: 16px solid white;
+        height: 376px;
+        width: 343px;
+        object-fit:cover;
+    }
+
+    .bottom-contact{
+        height: 480px;
+    }
+    .contact{
+        width: 375px;
+        height: 480px;
+        padding-bottom: 200px;
+    }
+    
+    .contact h2{
+        
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 56px;
+    }
+
+    footer{
+        max-width: 100vw;
+        height: auto;
+        position:relative;
+        bottom:0px;
+        display: flex;
+        justify-content: center;
+        background-color: #2E2E2E;
+    }
+    
+    footer p{
+        color: #fff;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+
+
+}
